@@ -21,13 +21,19 @@
     "@emotion/styled": "latest",
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
+    "i": "^0.3.7",
     "next": "latest",
+    "npm": "^8.11.0",
+    "peerjs": "^1.4.6",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "socket.io-client": "^4.5.1",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@types/node": "latest",
     "@types/react": "latest",
+    "@types/uuid": "^8.3.4",
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
     "eslint": "latest",
@@ -38,8 +44,9 @@
     "eslint-plugin-node": "latest",
     "eslint-plugin-promise": "latest",
     "eslint-plugin-react": "latest",
+    "file-loader": "^6.2.0",
+    "husky": "latest",
     "prettier": "latest",
-    "typescript": "latest",
-    "husky": "latest"
+    "typescript": "latest"
   }
 }
