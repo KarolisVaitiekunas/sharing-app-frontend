@@ -20,7 +20,7 @@ export interface IContext {
   setRoomId: Function;
 }
 
-const WS = 'http://localhost:8080';
+const WS = 'http://localhost:3001';
 
 const ws = socketIOClient(WS);
 
@@ -124,8 +124,8 @@ export const RoomProvider: React.FunctionComponent = ({ children }) => {
 
       const peer = new Peer(meId, {
         host: 'localhost',
-        port: 9001,
-        path: '/',
+        port: 9000,
+        path: '/myapp',
       });
       setMe(peer);
 
